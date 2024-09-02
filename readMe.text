@@ -1,0 +1,37 @@
+prepared by dpm and you are allowed to use even modifying it
+
+=============================database======================
+CREATE DATABASE ipt;
+USE ipt;
+
+CREATE TABLE user (
+    id INT(11) AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(50) NOT NULL,
+    email VARCHAR(50) NOT NULL UNIQUE,
+    password VARCHAR(255) NOT NULL,
+    birth_date DATE NOT NULL,
+    gender ENUM('Male', 'Female') NOT NULL
+);
+
+===============languages used======================================
+PHP
+MySQL  Database (SQL)
+HTML
+CSS
+
+==============running code=====================================
+How to Run this Free and open source law practice management software source code :
+1.    Download source code (zip file)
+2.    Extract the file of the project folder (zip file) 
+3.    Copy project folder i.e source code files to htdocs
+4.    open localhost/phpmyadmin and create a database "ipt"
+5.    Now import the database of the SQL file
+6.    Open source code files and check database name is proper or not.
+
+======================WHAT IS CRUD--====================================
+CRUD stands for Create, Read, Update, Delete. 
+These are the four basic operations that are commonly performed on data in a database:  
+1. Create - This operation refers to adding new data to the database. Eg., adding a new user to the user table.  
+2. Read - This operation is about retrieving or reading data from the database. Eg., viewing a list of all users stored in the user table.  
+3. Update - This involves modifying existing data in the database. For example, changing a user's email address in the user table.  
+4. Delete - This operation involves removing data from the database. Eg., deleting a user from the user table.
